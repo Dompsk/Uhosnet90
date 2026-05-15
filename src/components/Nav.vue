@@ -73,22 +73,40 @@
       <div
         class="hidden lg:flex items-center gap-6 xl:gap-12 text-[#1e293b] font-medium text-[24px]"
       >
-        <router-link to="/" active-class="active-nav" class="nav-link"
+        <router-link
+          to="/"
+          active-class="active-nav"
+          class="nav-link"
           >หน้าหลัก</router-link
         >
-        <router-link to="/about" active-class="active-nav" class="nav-link"
+        <router-link
+          to="/about"
+          active-class="active-nav"
+          class="nav-link"
           >เกี่ยวกับ</router-link
         >
-        <router-link to="/agenda" active-class="active-nav" class="nav-link"
+        <router-link
+          to="/agenda"
+          active-class="active-nav"
+          class="nav-link"
           >กำหนดการ</router-link
         >
-        <router-link to="/speaker" active-class="active-nav" class="nav-link"
+        <router-link
+          to="/speaker"
+          active-class="active-nav"
+          class="nav-link"
           >วิทยากร</router-link
         >
-        <router-link to="/news" active-class="active-nav" class="nav-link"
+        <router-link
+          to="/news"
+          active-class="active-nav"
+          class="nav-link"
           >ข่าวประชาสัมพันธ์</router-link
         >
-        <router-link to="/contact" active-class="active-nav" class="nav-link"
+        <router-link
+          to="/contact"
+          active-class="active-nav"
+          class="nav-link"
           >ติดต่อเรา</router-link
         >
         <router-link
@@ -170,27 +188,34 @@ const closeMenu = () => {
 <style scoped>
 .nav-link {
   position: relative;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #284a7e;
   transition: all 0.3s ease;
+  transform: translateX(-50%);
 }
 
 .nav-link:hover {
   color: #284a7e;
 }
 
+.nav-link:hover::after,
+.active-nav::after {
+  width: 100%;
+}
+
 .active-nav {
   color: #284a7e;
   font-weight: 700;
-}
-
-.active-nav::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #284a7e;
 }
 
 .fade-enter-active,
