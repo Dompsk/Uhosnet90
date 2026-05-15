@@ -10,12 +10,12 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    component: () => import('@/view/about/about.vue')
+    component: () => import('@/view/about/About.vue')
   },
   {
     path: '/agenda',
     name: 'agenda',
-    component: () => import('@/view/agenda/agenda.vue')
+    component: () => import('@/view/agenda/Agenda.vue')
   },
   {
     path: '/speaker',
