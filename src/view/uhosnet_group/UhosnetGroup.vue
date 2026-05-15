@@ -4,7 +4,7 @@
         <header>
             <p class="text-center text-[18px] text-[#02a4a9] font-bold">UHOSNET GROUPS</p>
             <h1 class="text-center text-[36px] font-bold text-[#003d7e]">กลุ่มงานภายในเครือข่าย</h1>
-            <div class="w-[350px] h-[4px] bg-amber-400 mx-auto"></div>
+            <div class="w-[250px] h-[4px] bg-amber-400 mx-auto"></div>
         </header>
         <div class="grid grid-cols-3 grid-rows-2 align-items-center justify-items-center mt-20 mx-70 gap-20">
             <div class="w-[380px] h-[200px] border-[1.5px] border-[#b7b7b7] rounded-[15px] shadow-xl shadow-black/30

@@ -7,7 +7,6 @@
 =======
   <div class="home-container relative w-full min-h-screen font-sans bg-gray-50">
     <!-- Navbar Component -->
-    <Navbar />
 
     <!-- Banner Section -->
     <section
