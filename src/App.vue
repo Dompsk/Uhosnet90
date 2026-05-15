@@ -1,9 +1,10 @@
-<script setup></script>
+<script setup>
+import News from './view/news/News.vue';
+
+</script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <router-view />
-  </div>
+    <News />
 </template>
 
 <style scoped></style>
