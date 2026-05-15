@@ -1,10 +1,9 @@
 <script setup>
-import News from './view/news/News.vue';
-
+import UhosnetGroup from "./view/uhosnet_group/UhosnetGroup.vue";
 </script>
 
 <template>
-    <News />
+  <UhosnetGroup />
 </template>
 
 <style scoped></style>
