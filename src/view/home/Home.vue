@@ -1,10 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <div>
-    Home Page
-  </div>
-</template>
-=======
   <div class="home-container relative w-full min-h-screen font-sans bg-gray-50">
     <!-- Navbar Component -->
     <Navbar />
@@ -163,4 +157,3 @@ import BannerImg from "@/asset/banner/banner.jpg";
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 </style>
->>>>>>> a08223de72b5ce006c51d511bd4caea15e22fbe9
