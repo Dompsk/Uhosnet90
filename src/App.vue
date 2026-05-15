@@ -1,9 +1,9 @@
-<script setup></script>
+<script setup>
+import UhosnetGroup from "./view/uhosnet_group/UhosnetGroup.vue";
+</script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <router-view />
-  </div>
+  <UhosnetGroup />
 </template>
 
 <style scoped></style>
