@@ -86,7 +86,7 @@
 
       <!-- Venue -->
       <div
-        class="bg-white rounded-[1rem] shadow-[0_2px_16px_rgba(0,0,0,0.08)] p-8 flex-1 min-w-[120px] max-w-[400px] flex flex-col items-center justify-center text-center transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_6px_24px_rgba(40,74,126,0.15)]"
+        class="bg-white rounded-[1rem] shadow-[0_2px_16px_rgba(0,0,0,0.08)] p-1 flex-1 min-w-[120px] max-w-[400px] flex flex-col items-center justify-center text-center transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_6px_24px_rgba(40,74,126,0.15)]"
       >
         <div
           class="bg-[#284a7e] rounded-[0.75rem] w-[52px] h-[52px] flex items-center justify-center mb-4"
@@ -145,7 +145,6 @@
 </template>
 
 <script setup>
-import Navbar from "@/components/Nav.vue";
 import BannerImg from "@/asset/banner/banner.jpg";
 </script>
 
