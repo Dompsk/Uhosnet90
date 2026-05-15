@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'DB Chuanpim PSU';
+  src: url('@/asset/font/DB_Chuanpim_PSU_Webfont/db_chuanpim_psu_regular.woff2') format('woff2'),
+       url('@/asset/font/DB_Chuanpim_PSU_Webfont/db_chuanpim_psu_regular.woff') format('woff'),
+       url('@/asset/font/DB_Chuanpim_PSU_Webfont/db_chuanpim_psu_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DB Chuanpim PSU';
+  src: url('@/asset/font/DB_Chuanpim_PSU_Webfont/db_chuanpim_psu_bd.woff2') format('woff2'),
+       url('@/asset/font/DB_Chuanpim_PSU_Webfont/db_chuanpim_psu_bd.woff') format('woff'),
+       url('@/asset/font/DB_Chuanpim_PSU_Webfont/db_chuanpim_psu_bd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: "DB Chuanpim PSU", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: "DB Chuanpim PSU", sans-serif;
+  }
+}

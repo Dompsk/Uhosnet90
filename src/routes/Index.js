@@ -7,7 +7,32 @@ const routes = [
     name: "home",
     component: Home,
   },
-];
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import('@/view/about/about.vue')
+  },
+  {
+    path: '/agenda',
+    name: 'agenda',
+    component: () => import('@/view/agenda/agenda.vue')
+  },
+  {
+    path: '/speaker',
+    name: 'speaker',
+    component: () => import('@/view/speaker/Speaker.vue')
+  },
+  {
+    path: '/news',
+    name: 'news',
+    component: () => import('@/view/news/News.vue')
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('@/view/contact/Contact.vue')
+  }
+]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
