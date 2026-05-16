@@ -1,5 +1,6 @@
 <template>
-  <div class="w-full bg-[#F4FAFF] px-5 py-10 font-sans">
+  <section id="agenda">
+  <div class=" bg-[#F4FAFF] px-30 py-10">
     <!-- หัวข้อ -->
     <div class="mb-8">
       <h1 class="text-[38px] font-bold text-[#003D7E] mb-2">
@@ -17,20 +18,20 @@
       class="w-full bg-white rounded-[24px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] mb-10"
     >
       <!-- Header -->
-      <div class="bg-[#F5BC00] px-6 py-4 flex items-center gap-3">
-        <span class="text-[24px]">🗓</span>
+      <div class="bg-gradient-to-r from-[#63A82A] to-[#CBDDBC] px-6 py-4 flex items-center gap-3">
+        <span class="text-[24px] text-[#ffff]">🗓</span>
 
-        <h2 class="text-[22px] font-bold text-[#111]">
+        <h2 class="text-[22px] font-bold text-[#ffff]">
           วันพุธที่ 24 มิถุนายน 2569
         </h2>
       </div>
 
       <!-- Body -->
       <div
-        class="grid grid-cols-[250px_1fr] gap-5 px-6 py-9 items-start max-md:grid-cols-1"
+        class="grid grid-cols-[250px_1fr] px-6 py-9 items-start max-md:grid-cols-1"
       >
         <!-- เวลา -->
-        <div class="text-[30px] font-bold text-[#1458FF]">18.00 - 21.00 น.</div>
+        <div class="text-[20px] font-bold text-[#1458FF]">18.00 - 21.00 น.</div>
 
         <!-- รายละเอียด -->
         <div>
@@ -51,9 +52,9 @@
     >
       <!-- Header -->
       <div
-        class="bg-gradient-to-r from-[#0B5D8A] to-[#08A6A6] px-6 py-4 flex items-center gap-3"
+        class="bg-gradient-to-r from-[#DBB32C] to-[#E2CB81] px-6 py-4 flex items-center gap-3"
       >
-        <span class="text-[24px]">🗓</span>
+        <span class="text-[24px] text-white">🗓</span>
 
         <h2 class="text-[22px] font-bold text-white">
           วันพฤหัสบดีที่ 25 มิถุนายน 2569
@@ -253,8 +254,8 @@
       class="w-full bg-white rounded-[24px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] mt-10"
     >
       <!-- Header -->
-      <div class="bg-[#1F232B] px-6 py-4 flex items-center gap-3">
-        <span class="text-[24px]">🗓</span>
+      <div class="bg-gradient-to-r from-[#19528F] to-[#71AFD8] px-6 py-4 flex items-center gap-3">
+        <span class="text-[24px] text-white">🗓</span>
 
         <h2 class="text-[22px] font-bold text-white">
           วันศุกร์ที่ 26 มิถุนายน 2569
@@ -397,6 +398,7 @@
       </p>
     </div>
   </div>
+</section>
 </template>
 
 <script>

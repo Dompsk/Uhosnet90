@@ -76,6 +76,7 @@
         <a @click.prevent="scrollToSection('home')" :class="['nav-link', activeSection === 'home' ? 'active-nav' : '']" href="#home">หน้าหลัก</a>
         <a @click.prevent="scrollToSection('about')" :class="['nav-link', activeSection === 'about' ? 'active-nav' : '']" href="#about">เกี่ยวกับ</a>
         <a @click.prevent="scrollToSection('news')" :class="['nav-link', activeSection === 'news' ? 'active-nav' : '']" href="#news">ข่าวประชาสัมพันธ์</a>
+        <a @click.prevent="scrollToSection('agenda')" :class="['nav-link', activeSection === 'agenda' ? 'active-nav' : '']" href="#agenda">กำหนดการ</a>
         <a @click.prevent="scrollToSection('uhosnet_group')" :class="['nav-link', activeSection === 'uhosnet_group' ? 'active-nav' : '']" href="#uhosnet_group">กลุ่มงาน</a>
         <a @click.prevent="scrollToSection('contact')" :class="['nav-link', activeSection === 'contact' ? 'active-nav' : '']" href="#contact">ติดต่อเรา</a>
         <router-link
@@ -94,8 +95,9 @@
         >
           <a @click.prevent="scrollToSection('home'); closeMenu()" href="#home" class="py-3 px-2 border-b border-gray-50 text-gray-700">หน้าหลัก</a>
           <a @click.prevent="scrollToSection('about'); closeMenu()" href="#about" class="py-3 px-2 border-b border-gray-50 text-gray-700">เกี่ยวกับ</a>
-          <a @click.prevent="scrollToSection('uhosnet_group'); closeMenu()" href="#agenda" class="py-3 px-2 border-b border-gray-50 text-gray-700">กำหนดการ</a>
           <a @click.prevent="scrollToSection('news'); closeMenu()" href="#news" class="py-3 px-2 border-b border-gray-50 text-gray-700">ข่าวประชาสัมพันธ์</a>
+          <a @click.prevent="scrollToSection('agenda'); closeMenu()" href="#agenda" class="py-3 px-2 border-b border-gray-50 text-gray-700">กำหนดการ</a>
+          <a @click.prevent="scrollToSection('uhosnet_group'); closeMenu()" href="#uhosnet_group" class="py-3 px-2 border-b border-gray-50 text-gray-700">กลุ่มงาน</a>
           <a @click.prevent="scrollToSection('contact'); closeMenu()" href="#contact" class="py-3 px-2 border-b border-gray-50 text-gray-700">ติดต่อเรา</a>
           <router-link
             @click="closeMenu"
@@ -142,7 +144,7 @@ const scrollToSection = async (id) => {
 };
 
 // Highlight active section based on scroll position
-const sections = ['home', 'about', 'uhosnet_group', 'news', 'contact'];
+const sections = ['home', 'about', 'news', 'agenda', 'uhosnet_group', 'contact'];
 const onScroll = () => {
   const navHeight = document.querySelector('header')?.offsetHeight || 80;
   for (let i = sections.length - 1; i >= 0; i--) {
