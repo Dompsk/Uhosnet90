@@ -1,7 +1,7 @@
 <template>
   
     <section id="footer">
-        <div class="bg-[#19528f] w-full h-auto py-10 px-70 text-white mt-20">
+        <div class="bg-[#19528f] w-full h-[280px] py-5 px-70 text-white mt-20">
             <div class="flex justify-between pb-5 border-b-2 border-white">
                 <div>
                     <h1 class="text-[30px] font-bold">UHosNet</h1>
