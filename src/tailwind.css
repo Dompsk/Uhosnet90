@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Thai:wght@100..900&display=swap');
 
 @font-face {
   font-family: 'DB Chuanpim PSU';
@@ -19,11 +20,15 @@
 }
 
 @theme {
-  --font-sans: "DB Chuanpim PSU", ui-sans-serif, system-ui, sans-serif;
+  --font-bebas: "Bebas Neue", cursive;
+  --font-jost: "Jost", sans-serif;
+  --font-noto: "Noto Sans Thai", sans-serif;
+  --font-sans: "Jost", "Noto Sans Thai", "DB Chuanpim PSU", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
   html {
-    font-family: "DB Chuanpim PSU", sans-serif;
+    font-family: "Jost", "Noto Sans Thai", "DB Chuanpim PSU", sans-serif;
   }
 }
+

@@ -2,7 +2,7 @@
   <header class="w-full font-sans sticky top-0 z-50 shadow-md">
     <!-- Top Bar -->
     <div
-      class="bg-[#284a7e] text-white py-0.25 px-4 md:px-10 flex flex-col md:flex-row justify-between items-center text-[10px] md:text-[18px]"
+      class="bg-[#284a7e] text-white py-0.25 px-4 md:px-10 flex flex-col md:flex-row justify-between items-center text-[7px] md:text-[14px]"
     >
       <div class="mb-1 md:mb-0 text-center md:text-left">
         เจ้าภาพโดย โรงพยาบาลสงขลานครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์
@@ -16,7 +16,7 @@
 
     <!-- Main Navbar -->
     <nav
-      class="bg-white py-2 px-4 md:px-10 flex justify-between items-center relative"
+      class="bg-white py-1 px-4 md:px-10 flex justify-between items-center relative"
     >
       <!-- Logo Section -->
       <router-link to="/" class="flex items-center gap-2">
@@ -26,7 +26,7 @@
           class="h-14 md:h-16 w-auto object-contain mb-2"
         />
         <span
-          class="text-[#284a7e] text-xl md:text-[3rem] font-bold tracking-tight"
+          class="text-[#284a7e] text-xl md:text-[2.5rem] font-bold tracking-tight"
           >UhosNet</span
         >
       </router-link>
@@ -71,7 +71,7 @@
 
       <!-- Desktop Menu -->
       <div
-        class="hidden lg:flex items-center gap-6 xl:gap-12 text-[#1e293b] font-medium text-[24px]"
+        class="hidden lg:flex items-center gap-6 xl:gap-12 text-[#1e293b] font-medium text-[18px]"
       >
         <router-link to="/" active-class="active-nav" class="nav-link"
           >หน้าหลัก</router-link
