@@ -1,9 +1,9 @@
 <template>
-  <div class="home-container relative w-full min-h-screen font-sans bg-gray-50">
+  <div id="home" class="home-container relative w-full min-h-screen font-sans bg-gray-50">
     <!-- Navbar Component -->
 
     <!-- Banner Section -->
-    <section class="relative w-full h-[500px] md:h-[700px] lg:h-[500px] bg-cover bg-center" :style="{ backgroundImage: `url(${BannerImg})` }">
+    <section class="relative w-f h-[500px] md:h-[700px] lg:h-[500px] bg-cover bg-center" :style="{ backgroundImage: `url(${BannerImg})` }">
       <!-- Gradient Overlay -->
       <div class="absolute inset-0 z-0" style="background: linear-gradient(90deg, rgba(0, 66, 136, 0.9) 45%, rgba(86, 117, 2, 0.3) 100%);"></div>
 

@@ -13,16 +13,6 @@ const routes = [
     component: () => import('@/view/about/About.vue')
   },
   {
-    path: '/agenda',
-    name: 'agenda',
-    component: () => import('@/view/agenda/Agenda.vue')
-  },
-  {
-    path: '/speaker',
-    name: 'speaker',
-    component: () => import('@/view/speaker/Speaker.vue')
-  },
-  {
     path: '/news',
     name: 'news',
     component: () => import('@/view/news/News.vue')
@@ -31,12 +21,26 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('@/view/contact/Contact.vue')
+  },
+  {
+    path: '/uhosnet_group',
+    name: 'uhosnet_group',
+    component: () => import('@/view/uhosnet_group/UhosnetGroup.vue')
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+    return { top: 0 }
+  },
 });
 
 export default router;
