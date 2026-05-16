@@ -15,9 +15,7 @@ import UhosnetGroup from "./view/uhosnet_group/UhosnetGroup.vue";
   <Nav />
   <Home />
   <About />
-  <!-- Placeholder sections with scroll anchors -->
-  <div id="agenda"></div>
-  <div id="speaker"></div>
+  <!-- Placeholder sections with scroll anchors (Removed to fix duplicate IDs) -->
   <News />
   <Agenda />
   <!-- <Speaker />  -->
