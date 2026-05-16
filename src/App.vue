@@ -1,6 +1,7 @@
 <script setup>
 import Nav from "./components/Nav.vue";
 import About from "./view/about/About.vue";
+import Agenda from "./view/agenda/Agenda.vue";
 import Footer from "./view/footer/Footer.vue";
 import Home from "./view/home/Home.vue";
 import News from "./view/news/News.vue";
@@ -13,7 +14,8 @@ import UhosnetGroup from "./view/uhosnet_group/UhosnetGroup.vue";
   <Home />
   <About />
   <News />
-  <!-- <Speaker /> -->
+  <Agenda />
+  <!-- <Speaker />  -->
   <UhosnetGroup />
   <Footer />
 </template>
