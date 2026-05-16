@@ -1,13 +1,13 @@
 <template>
-
-    <section id="news" class="mt-5 mb-40">
+ 
+    <section id="news" class="mt-5 mb-20 bg-[#F9FCFF] pb-10 ">
         <div class="flex flex-col items-center">
             <h1 class="text-[#02A4A9] text-[18px] font-bold mt-25">NEWS</h1>
             <h1 class="text-[#003D7E] text-[36px] font-bold">ข่าวประชาสัมพันธ์</h1>
             <div class="w-[250px] h-[4px] bg-[#F6B73C] mx-auto"></div>
         </div>
 
-        <div class="grid grid-cols-3 align-items-center justify-items-center mt-15 mx-25 flex flex-col">
+        <div class="grid grid-cols-3 justify-items-center mt-15 mx-25">
 
             <div class="w-[500px] h-[210px] bg-white p-[30px] shadow-[0_4px_12px_rgba(0,0,0,0.15),-4px_0_12px_rgba(0,0,0,0.05),4px_0_12px_rgba(0,0,0,0.05)] cursor-pointer rounded-2xl transition duration-300 ease-in-out hover:-translate-y-3 flex flex-col">
                 <p class="text-[#003D7E] font-extrabold text-[20px]">เปิดลงทะเบียนเข้าร่วมการประชุม UHosNet</p>
@@ -36,6 +36,12 @@
                 </div>
             </div>
             
+        </div>
+
+        <div class="grid place-items-center mt-15 mx-25">
+            <a href="#" class="group flex h-[50px] w-[300px] items-center justify-center rounded-4xl border border-[#003D7E] bg-white transition-all duration-300 hover:bg-[#003D7E]">
+                <span class="text-[20px] font-extrabold text-[#003D7E] transition-colors duration-300 group-hover:text-white">ดูทั้งหมด</span>
+            </a>
         </div>
 
     </section>
