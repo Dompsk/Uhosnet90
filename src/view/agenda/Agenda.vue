@@ -1,13 +1,18 @@
 <template>
   <section id="agenda">
-  <div class=" bg-[#F4FAFF] px-30 py-10">
 
-    <div class="mb-8">
-      <h1 class="mt-10 text-[18px] font-bold text-[#02A4A9]">AGENDA</h1>
-      <h1 class="text-[38px] font-bold text-[#003D7E] mb-2">กำหนดการประชุม UHosNet ครั้งที่ 90</h1>
-      <p class="text-[16px] text-[#333]">วันที่ 25-26 มิถุนายน 2569 ณ ห้องปารีส ชั้น 2 โรงแรมคริสตัล อำเภอหาดใหญ่ จังหวัดสงขลา</p>
+  <div class=" bg-[#F4FAFF] px-30 py-10">
+    <div class="flex items-center justify-between mb-10"><div>
+      <h1 class="text-[18px] font-bold text-[#02A4A9] mb-2">AGENDA</h1>
+      <h1 class="text-[38px] font-bold text-[#003D7E] mb-4">กำหนดการประชุม UHosNet ครั้งที่ 90</h1>
+      <p class="text-[16px] text-[#555]">วันที่ 25-26 มิถุนายน 2569 ณ ห้องปารีสแกรนด์บอลรูม ชั้น 2 โรงแรมคริสตัล อำเภอหาดใหญ่ จังหวัดสงขลา</p>
     </div>
 
+    <a href="https://hospital.psu.ac.th/uhosnet/schedule.pdf" target="_blank" class="group self-end flex h-[40px] w-[230px] items-center justify-center rounded-full border border-[#003D7E] bg-white transition-all duration-300 hover:bg-[#003D7E]">
+      <span class="text-[16px] text-[#003D7E] transition-colors duration-300 group-hover:text-white">ดาวน์โหลดกำหนดการ PDF</span>
+    </a>
+  </div>
+    
     <!-- ================= วันที่ 24 ================= -->
     <div class="w-full bg-white rounded-[24px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] mb-10">
       <div class="bg-gradient-to-r from-[#63A82A] to-[#CBDDBC] px-6 py-4 flex items-center gap-3">
