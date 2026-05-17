@@ -83,7 +83,7 @@
         </div>
 
         <div class="grid grid-cols-[250px_1fr] border-b border-gray-300 max-md:grid-cols-1">
-          <div class="px-6 py-5 text-[#1458FF] font-bold">09.30 - 10.30 น.</div>
+          <div class="px-6 py-5 text-[#1458FF] font-bold">10.30 - 11.00 น.</div>
 
           <div class="px-6 py-5">
             <h3 class="font-bold text-[16px] mb-2">ถ่ายภาพที่ระลึกร่วมกัน 6 ชุด</h3>
@@ -160,27 +160,27 @@
 
               <div class="bg-[#f7f7f7] rounded-2xl p-4">
                 <h4 class="font-bold text-[16px] mb-1">2. คณะอนุกรรมการพยาบาลเครือข่าย</h4>
-                <p class="text-[14px] text-[#666]">ห้องจันทร์ ชั้น 1</p>
+                <p class="text-[14px] text-[#666]">ห้องออกฟอร์ด ชั้น 1</p>
               </div>
 
               <div class="bg-[#f7f7f7] rounded-2xl p-4">
                 <h4 class="font-bold text-[16px] mb-1">3. คณะอนุกรรมการเภสัชกรรมเครือข่าย</h4>
-                <p class="text-[16px] text-[#666]">ห้องปาล์ม ชั้น 1</p>
+                <p class="text-[16px] text-[#666]">ห้องไบร์ทตัน ชั้น 1</p>
               </div>
 
               <div class="bg-[#f7f7f7] rounded-2xl p-4">
                 <h4 class="font-bold text-[16x] mb-1">4. คณะอนุกรรมการพัฒนาคุณภาพเครือข่าย</h4>
-                <p class="text-[16px] text-[#666]">ห้องจันทร์ ชั้น 3</p>
+                <p class="text-[16px] text-[#666]">ห้องจันทร์มณี ชั้น 3</p>
               </div>
 
               <div class="bg-[#f7f7f7] rounded-2xl p-4">
-                <h4 class="font-bold text-[16px] mb-1">5. คณะอนุกรรมการพัฒนาทรัพยากรบุคคล</h4>
-                <p class="text-[16px] text-[#666]">ห้องหยาดเพชร</p>
+                <h4 class="font-bold text-[16px] mb-1">5. คณะอนุกรรมการพัฒนาระบบสารสนเทศ</h4>
+                <p class="text-[16px] text-[#666]">ห้องจันทร์นภา ชั้น 3</p>
               </div>
 
               <div class="bg-[#f7f7f7] rounded-2xl p-4">
-                <h4 class="font-bold text-[16px] mb-1">6. คณะอนุกรรมการพัฒนาระบบสารสนเทศ</h4>
-                <p class="text-[16px] text-[#666]">ห้องจันทร์นภา</p>
+                <h4 class="font-bold text-[16px] mb-1">6. คณะอนุกรรมการพัฒนาทรัพยากรบุคคล</h4>
+                <p class="text-[16px] text-[#666]">ห้องหยาดเพชร ชั้น 8</p>
               </div>
             </div>
           </div>
