@@ -26,6 +26,7 @@ const route = useRoute();
     <News />
     <RegisProcess />
     <Agenda />
+    <Speaker />
   </div>
 
   <!-- หน้ารายละเอียด About -->
