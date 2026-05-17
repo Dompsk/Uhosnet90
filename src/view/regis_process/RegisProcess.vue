@@ -78,7 +78,7 @@
 
     <!-- Bottom Button -->
     <div class="flex justify-center animate-bounce-subtle">
-      <router-link to="/register-form" class="px-12 py-4 bg-[#fbb03b] hover:bg-[#e09d30] text-white font-bold text-[18px] md:text-[20px] rounded-full shadow-lg shadow-[#fbb03b]/20 hover:shadow-xl hover:shadow-[#fbb03b]/30 transition-all duration-300 transform hover:scale-105 active:scale-95 text-center flex items-center gap-2">
+      <router-link to="/aboutinfo" class="px-12 py-4 bg-[#fbb03b] hover:bg-[#e09d30] text-white font-bold text-[18px] md:text-[20px] rounded-full shadow-lg shadow-[#fbb03b]/20 hover:shadow-xl hover:shadow-[#fbb03b]/30 transition-all duration-300 transform hover:scale-105 active:scale-95 text-center flex items-center gap-2">
         ไปยังหน้าลงทะเบียน
       </router-link>
     </div>
