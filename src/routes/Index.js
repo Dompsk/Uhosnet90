@@ -26,6 +26,11 @@ const routes = [
     path: '/uhosnet_group',
     name: 'uhosnet_group',
     component: () => import('@/view/uhosnet_group/UhosnetGroup.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('@/view/regis_process/RegisProcess.vue')
   }
 ]
 

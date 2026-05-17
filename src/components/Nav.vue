@@ -75,9 +75,9 @@
       >
         <a @click.prevent="scrollToSection('home')" :class="['nav-link', activeSection === 'home' ? 'active-nav' : '']" href="#home">หน้าหลัก</a>
         <a @click.prevent="scrollToSection('about')" :class="['nav-link', activeSection === 'about' ? 'active-nav' : '']" href="#about">เกี่ยวกับ</a>
+        <a @click.prevent="scrollToSection('uhosnet_group')" :class="['nav-link', activeSection === 'uhosnet_group' ? 'active-nav' : '']" href="#uhosnet_group">กลุ่มงาน</a>
         <a @click.prevent="scrollToSection('news')" :class="['nav-link', activeSection === 'news' ? 'active-nav' : '']" href="#news">ข่าวประชาสัมพันธ์</a>
         <a @click.prevent="scrollToSection('agenda')" :class="['nav-link', activeSection === 'agenda' ? 'active-nav' : '']" href="#agenda">กำหนดการ</a>
-        <a @click.prevent="scrollToSection('uhosnet_group')" :class="['nav-link', activeSection === 'uhosnet_group' ? 'active-nav' : '']" href="#uhosnet_group">กลุ่มงาน</a>
         <a @click.prevent="scrollToSection('contact')" :class="['nav-link', activeSection === 'contact' ? 'active-nav' : '']" href="#contact">ติดต่อเรา</a>
         <router-link
           to="/register"
@@ -144,7 +144,7 @@ const scrollToSection = async (id) => {
 };
 
 // Highlight active section based on scroll position
-const sections = ['home', 'about', 'news', 'agenda', 'uhosnet_group', 'contact'];
+const sections = ['home', 'about', 'uhosnet_group', 'news', 'agenda', 'contact'];
 const onScroll = () => {
   const navHeight = document.querySelector('header')?.offsetHeight || 80;
   for (let i = sections.length - 1; i >= 0; i--) {

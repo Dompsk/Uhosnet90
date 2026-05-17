@@ -1,8 +1,8 @@
 <template>
  
-    <section id="news" class="mt-5 mb-20 bg-[#F9FCFF] pb-10 ">
+    <section id="news" class="bg-[#F9FCFF] pt-20 pb-20">
         <div class="flex flex-col items-center">
-            <h1 class="text-[#02A4A9] text-[18px] font-bold mt-25">NEWS</h1>
+            <h1 class="text-[#02A4A9] text-[18px] font-bold">NEWS</h1>
             <h1 class="text-[#003D7E] text-[36px] font-bold">ข่าวประชาสัมพันธ์</h1>
             <div class="w-[250px] h-[4px] bg-[#F6B73C] mx-auto"></div>
         </div>
