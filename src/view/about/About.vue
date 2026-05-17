@@ -49,7 +49,7 @@
             </div>
 
             <!-- Button -->
-            <router-link to="/#about" class="group flex h-[50px] w-[150px] items-center justify-center rounded-4xl border border-[#003D7E] bg-white transition-all duration-300 hover:bg-[#003D7E] mx-auto">
+            <router-link to="/aboutinfo" class="group flex h-[50px] w-[150px] items-center justify-center rounded-4xl border border-[#003D7E] bg-white transition-all duration-300 hover:bg-[#003D7E] mx-auto">
                 <span class="text-[20px] font-extrabold text-[#003D7E] transition-colors duration-300 group-hover:text-white">อ่านเพิ่มเติม</span>
             </router-link>
         </div>

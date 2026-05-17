@@ -33,10 +33,6 @@ const route = useRoute();
     <AboutInfo />
   </div>
   
-  <div v-else>
-    <router-view />
-  </div>
-  
   <!-- footer ในทุกหน้า -->
   <Footer />
 </template>
