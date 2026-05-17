@@ -1,12 +1,12 @@
 <template>
 
-    <section id="uhosnet_group" class="my-[50px]">
-        <header class="py-10">
+    <section id="uhosnet_group" class="pt-20 pb-20">
+        <header class="pb-10">
             <p class="text-center text-[18px] text-[#02a4a9] font-bold">UHOSNET GROUPS</p>
             <h1 class="text-center text-[36px] font-bold text-[#003d7e]">กลุ่มงานภายในเครือข่าย</h1>
             <div class="w-[250px] h-[4px] bg-amber-400 mx-auto"></div>
         </header>
-        <div class="grid grid-cols-3 grid-rows-2 align-items-center justify-items-center mx-70 gap-20">
+        <div class="grid grid-cols-3 grid-rows-2 align-items-center justify-items-center mx-70 my-[30px] gap-20">
             <div class="bg-white w-[380px] h-[200px]  rounded-[1rem] shadow-[0_2px_16px_rgba(0,0,0,0.08)] flex flex-col items-center justify-center text-center transition-all duration-200 ease-in-out hover:-translate-y-1 hover:shadow-[0_6px_24px_rgba(40,74,126,0.15)]">
                 <div class="logo w-[52px] h-[52px] bg-[#19528f] rounded-[0.75rem] mb-4 flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#e3e3e3"><path d="M80-120v-720h400v160h400v560H80Zm80-80h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h320v-400H480v80h80v80h-80v80h80v80h-80v80Zm160-240v-80h80v80h-80Zm0 160v-80h80v80h-80Z"/></svg>
