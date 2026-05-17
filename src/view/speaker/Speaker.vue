@@ -8,8 +8,9 @@
       <p class="mt-10 text-[20px]">วิทยากรหลักของการประชุม UHosNet ครั้งที่ 90 ถ่ายทอดมุมมองด้านนโยบาย เทคโนโลยี นวัตกรรม และการบริหารองค์กรสู่ความยั่งยืน</p>
     </div>
 
-    <div class="mt-10 grid grid-cols-2 px-30 py-10 gap-5 justify-items-center ">
-      <div class="container rounded-[32px] bg-[#F8F8F8] shadow-[0_4px_10px_rgba(0,0,0,0.05),0_12px_30px_rgba(0,0,0,0.08)] p-12">
+    <!-- card 1 -->
+    <div class="mt-10 grid grid-cols-2 px-30 py-10 gap-5 items-stretch">
+       <div class="container h-full flex flex-col rounded-[32px] bg-[#F8F8F8] shadow-[0_4px_10px_rgba(0,0,0,0.05),0_12px_30px_rgba(0,0,0,0.08)] p-12">
         <div class="grid grid-cols-[140px_1fr] gap-10 items-center">
           <div>
             <img src="../../asset/speaker/speaker_yotchanan.png" alt="speaker" class="object-cover rounded-2xl shadow-lg">
@@ -63,7 +64,7 @@
         </ul>
       </div>
 
-      <div class="mt-10 rounded-2xl border border-[#B7CDF6] bg-[#F7FAFF] p-6">
+      <div class="mt-auto pt-10 rounded-2xl border border-[#B7CDF6] bg-[#F7FAFF] p-6">
         <div class="flex items-start gap-3 mb-3">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 shrink-0 mt-1" viewBox="0 -960 960 960" fill="#2F6BFF">
             <path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm457-560 21-89-71-59 94-8 36-84 36 84 94 8-71 59 21 89-80-47-80 47ZM480-481Z"/>
@@ -74,7 +75,8 @@
       </div>
       </div>
 
-    <div class="container rounded-[32px] bg-[#F8F8F8] shadow-[0_4px_10px_rgba(0,0,0,0.05),0_12px_30px_rgba(0,0,0,0.08)] p-12">
+    <!-- card 2 -->
+      <div class="container h-full flex flex-col rounded-[32px] bg-[#F8F8F8] shadow-[0_4px_10px_rgba(0,0,0,0.05),0_12px_30px_rgba(0,0,0,0.08)] p-12">
         <div class="grid grid-cols-[140px_1fr] gap-10 items-center">
           <div>
             <img src="../../asset/speaker/speaker_ekapol.png" alt="speaker" class="object-cover rounded-2xl shadow-lg">
@@ -126,7 +128,7 @@
         </ul>
       </div>
 
-      <div class="mt-17 rounded-2xl border border-[#C7E6D9] bg-[#E8F4ED] p-6">
+      <div class="mt-auto pt-10 rounded-2xl border border-[#C7E6D9] bg-[#E8F4ED] p-6">
         <div class="flex items-start gap-3 mb-3">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 shrink-0 mt-1" viewBox="0 -960 960 960" fill="#27905B">
             <path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm457-560 21-89-71-59 94-8 36-84 36 84 94 8-71 59 21 89-80-47-80 47ZM480-481Z"/>

@@ -22,7 +22,7 @@ const route = useRoute();
     <News />
     <RegisProcess />
     <Agenda />
-    
+    <Speaker />
   </div>
   
   <!-- Router View for other pages like registration -->
