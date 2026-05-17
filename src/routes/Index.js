@@ -31,6 +31,13 @@ const routes = [
     path: '/register',
     name: 'register',
     component: () => import('@/view/regis_process/RegisProcess.vue')
+  },
+
+  // ขึ้นหน้าใหม่
+  {
+    path: '/aboutinfo',
+    name: 'aboutinfo',
+    component: () => import('@/view/about/AboutInfo.vue')
   }
 ]
 
