@@ -1,7 +1,7 @@
 <template>
-  <section id="agenda" class="bg-[#F4FAFF] pt-20 pb-20 px-30">
+  <section id="agenda" class="bg-[#F4FAFF]">
 
-  <div>
+  <div class=" px-30 py-10">
     <div class="flex items-center justify-between mb-10"><div>
       <h1 class="text-[18px] font-bold text-[#02A4A9] mb-2">AGENDA</h1>
       <h1 class="text-[38px] font-bold text-[#003D7E] mb-4">กำหนดการประชุม UHosNet ครั้งที่ 90</h1>
