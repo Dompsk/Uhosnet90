@@ -1,7 +1,7 @@
 <template>
-  <section id="about">
+  <section id="about" class="bg-[#f4faff]">
     <!-- container -->
-    <div class="flex flex-row justify-between items-center bg-[#f4faff] py-31 px-40">
+    <div class="flex flex-row justify-between items-center py-20 px-40">
         <!-- left site -->
         <div class="max-w-[600px]">
             <p class="text-[#008e00] font-bold text-[20px] mb-2 uppercase tracking-wide">ABOUT CONFERENCE</p>
