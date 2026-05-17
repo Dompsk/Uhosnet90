@@ -18,7 +18,7 @@
       class="grid grid-cols-2 grid-rows-2 justify-items-center align-items-center gap-10 mx-80"
     >
       <!-- ชื่อโครงการ -->
-      <div class="w-[500px] h-[150px] shadow-2xl border border-gray-100 p-10">
+      <div class="w-[500px] h-[150px] shadow-lg rounded-xl bg-white border border-gray-100 p-10 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
         <h1 class="text-[#003D7E] font-bold text-[20px]">ชื่อโครงการ</h1>
         <p class="text-[#898989]">
           การประชุมเครือข่ายโรงพยาบาลกลุ่มสถาบันแพทยศาสตร์แห่งประเทศไทย
@@ -27,7 +27,7 @@
       </div>
 
       <!-- หน่วยงานที่รับผิดชอบ -->
-      <div class="w-[500px] h-[150px] shadow-2xl border border-gray-100 p-10">
+      <div class="w-[500px] h-[150px] shadow-lg rounded-xl bg-white border border-gray-100 p-10 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
         <h1 class="text-[#003D7E] font-bold text-[20px]">
           หน่วยงานที่รับผิดชอบ
         </h1>
@@ -37,7 +37,7 @@
       </div>
 
       <!-- ที่ปรึกษา -->
-      <div class="w-[500px] h-[150px] shadow-2xl border border-gray-100 p-10">
+      <div class="w-[500px] h-[150px] shadow-lg rounded-xl bg-white border border-gray-100 p-10 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
         <h1 class="text-[#003D7E] font-bold text-[20px]">ที่ปรึกษา</h1>
         <p class="text-[#898989]">
           คณบดีคณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์
@@ -45,7 +45,7 @@
       </div>
 
       <!-- ระยะเวลาและสถานที่ -->
-      <div class="w-[500px] h-[150px] shadow-2xl border border-gray-100 p-10">
+      <div class="w-[500px] h-[150px] shadow-lg rounded-xl bg-white border border-gray-100 p-10 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
         <h1 class="text-[#003D7E] font-bold text-[20px]">ระยะเวลาและสถานที่</h1>
         <p class="text-[#898989]">
           วันพฤหัสบดี - วันศุกร์ที่ 25-26 มิถุนายน 2569 ณ โรงแรมคริสตัล
@@ -58,7 +58,7 @@
     <div class="mt-10 p-2">
       <!-- หลักการและเหตุผล -->
       <div
-        class="bg-white py-10 px-20 w-[60%] mx-auto rounded-2xl my-10 shadow-2xl"
+        class="bg-white py-10 px-20 w-[60%] mx-auto rounded-2xl my-10 shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl"
       >
         <header>
           <h1 class="text-center text-[25px] font-bold text-[#003d7e]">
@@ -80,7 +80,7 @@
 
       <!-- วัตถุประสงค์ -->
       <div
-        class="bg-white py-10 px-20 w-[60%] mx-auto rounded-2xl my-10 shadow-2xl"
+        class="bg-white py-10 px-20 w-[60%] mx-auto rounded-2xl my-10 shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl"
       >
         <header>
           <h1 class="text-center text-[25px] font-bold text-[#003d7e]">
@@ -91,7 +91,7 @@
 
         <!-- สร้างความร่วมมือ -->
         <div
-          class="bg-white p-5 w-[70%] rounded-xl my-3 border-gray-200 border-2 w-full"
+          class="bg-white p-5 w-full rounded-xl my-3 border-gray-200 border-2 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg hover:border-[#3686bb]"
         >
           <h1 class="text-[20px] font-bold text-[#3686bb]">
             สร้างเครือข่ายความร่วมมือ
@@ -105,7 +105,7 @@
 
         <!-- พัฒนาแนวทาง -->
         <div
-          class="bg-white p-5 w-[70%] rounded-xl my-3 border-gray-200 border-2 w-full"
+          class="bg-white p-5 w-full rounded-xl my-3 border-gray-200 border-2 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg hover:border-[#3686bb]"
         >
           <h1 class="text-[20px] font-bold text-[#3686bb]">
             พัฒนาแนวทางประกันคุณภาพ
@@ -200,7 +200,7 @@
       <!-- Cards Container -->
       <div class="flex flex-col md:flex-row gap-8 justify-center items-stretch">
         <!-- Card 1 -->
-        <div class="flex-1 bg-white border border-gray-300 rounded-xl p-8 shadow-[0_2px_10px_rgba(0,0,0,0.05)] hover:shadow-[0_5px_15px_rgba(0,0,0,0.1)] transition-shadow duration-300">
+        <div class="flex-1 bg-white border border-gray-300 rounded-xl p-8 shadow-[0_2px_10px_rgba(0,0,0,0.05)] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(0,0,0,0.1)]">
           <h2 class="text-[20px] font-bold text-black mb-4">
             เกิดความร่วมมือในเครือข่าย
           </h2>
@@ -210,7 +210,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="flex-1 bg-white border border-gray-300 rounded-xl p-8 shadow-[0_2px_10px_rgba(0,0,0,0.05)] hover:shadow-[0_5px_15px_rgba(0,0,0,0.1)] transition-shadow duration-300">
+        <div class="flex-1 bg-white border border-gray-300 rounded-xl p-8 shadow-[0_2px_10px_rgba(0,0,0,0.05)] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(0,0,0,0.1)]">
           <h2 class="text-[20px] font-bold text-black mb-4">
             พัฒนาคุณภาพและการปรับตัว
           </h2>
@@ -231,7 +231,7 @@
       </router-link>
 
       <router-link
-        to="/register"
+        to="/"
         class="px-10 py-3.5 bg-[#fbb03b] text-white font-bold text-[18px] rounded-full hover:bg-[#e09d30] shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
       >
         คลิกเพื่อลงทะเบียนเข้าร่วมประชุม

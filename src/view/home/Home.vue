@@ -17,12 +17,12 @@
         </p>
 
         <div class="flex flex-wrap gap-10 mt-4">
-          <router-link to="/register" class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] text-[20px] px-5 py-2 w-fit rounded-full font-bold shadow-md transition-all transform hover:scale-105 active:scale-95 text-center">
+          <a href="#register" @click.prevent="scrollToSection('register')" class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] text-[20px] px-5 py-2 w-fit rounded-full font-bold shadow-md transition-all transform hover:scale-105 active:scale-95 text-center cursor-pointer">
             ลงทะเบียน
-          </router-link>
-          <router-link to="/about" class="bg-transparent border border-white text-white text-[20px] hover:bg-white/10 px-5 py-2 w-fit rounded-full font-medium shadow-sm transition-all text-center">
+          </a>
+          <a href="#about" @click.prevent="scrollToSection('about')" class="bg-transparent border border-white text-white text-[20px] hover:bg-white/10 px-5 py-2 w-fit rounded-full font-medium shadow-sm transition-all text-center cursor-pointer">
             ดูรายละเอียด
-          </router-link>
+          </a>
         </div>
       </div>
 
@@ -82,6 +82,15 @@
 
 <script setup>
 import BannerImg from "@/asset/banner/banner.jpg";
+
+const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (el) {
+    const navHeight = document.querySelector('header')?.offsetHeight || 80;
+    const top = el.getBoundingClientRect().top + window.scrollY - navHeight;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }
+};
 </script>
 
 <style scoped>

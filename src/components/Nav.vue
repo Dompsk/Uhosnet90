@@ -80,7 +80,7 @@
         <a @click.prevent="scrollToSection('agenda')" :class="['nav-link', activeSection === 'agenda' ? 'active-nav' : '']" href="#agenda">กำหนดการ</a>
         <a @click.prevent="scrollToSection('contact')" :class="['nav-link', activeSection === 'contact' ? 'active-nav' : '']" href="#contact">ติดต่อเรา</a>
         <router-link
-          to="/register"
+          to="/"
           class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] px-6 py-2 rounded-full font-bold shadow-sm transition-all transform hover:scale-105 active:scale-95"
         >
           ลงทะเบียน

@@ -1,5 +1,5 @@
 <template>
-  <div class="regis-process-container w-full py-8 md:py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#ffffff] to-white flex flex-col justify-center items-center">
+  <div id="register" class="regis-process-container w-full py-8 md:py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#ffffff] to-white flex flex-col justify-center items-center">
     <!-- Header Section -->
     <div class="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
       <span class="text-[18px] font-bold text-[#0da2b6] tracking-[0.25em] uppercase block mb-3">
