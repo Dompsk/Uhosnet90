@@ -3,7 +3,7 @@
     <!-- container -->
     <div class="flex flex-row justify-between items-start py-20 px-40">
         <!-- left site -->
-        <div class="max-w-[620px]">
+        <div class="max-w-[630px]">
             <p class="text-[#0da2b6] font-bold text-[18px] mb-3 uppercase tracking-[0.2em]">ABOUT CONFERENCE</p>
             <h2 class="text-[#003d7e] text-[42px] font-bold leading-[1.25]">
                 เชื่อมโยงเครือข่ายโรงพยาบาล<br>
