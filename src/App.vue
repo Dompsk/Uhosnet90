@@ -5,7 +5,7 @@ import Agenda from "./view/agenda/Agenda.vue";
 import Footer from "./view/footer/Footer.vue";
 import Home from "./view/home/Home.vue";
 import News from "./view/news/News.vue";
-// import Speaker from "./view/speaker/Speaker.vue";
+import Speaker from "./view/speaker/Speaker.vue";
 import UhosnetGroup from "./view/uhosnet_group/UhosnetGroup.vue";
 
 
@@ -18,7 +18,7 @@ import UhosnetGroup from "./view/uhosnet_group/UhosnetGroup.vue";
   <!-- Placeholder sections with scroll anchors (Removed to fix duplicate IDs) -->
   <News />
   <Agenda />
-  <!-- <Speaker />  -->
+  <Speaker /> 
   <UhosnetGroup />
   <Footer />
 </template>
