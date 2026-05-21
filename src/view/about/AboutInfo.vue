@@ -15,7 +15,7 @@
     </header>
 
     <div
-      class="grid grid-cols-2 grid-rows-2 justify-items-center align-items-center gap-10 mx-80"
+      class="grid lg:grid-cols-2 sm:grid-cols-1 grid-rows-2 justify-items-center align-items-center gap-10 mx-80"
     >
       <!-- ชื่อโครงการ -->
       <div class="w-[500px] h-[150px] shadow-lg rounded-xl bg-white border border-gray-100 p-10 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
@@ -119,7 +119,7 @@
     </div>
 
     <!-- จำนวนผู้เข้าร่วมประชุม -->
-    <div class="px-80 py-10 bg-[#FFFFFF] w-full">
+    <div class="lg:px-80 md:px-40 sm:px-20 py-10 bg-[#FFFFFF] w-full">
       <!-- หัวข้อ -->
       <h1 class="text-[#003d7e] font-bold text-[25px] my-10">
         จำนวนผู้เข้าร่วมประชุม
@@ -171,7 +171,7 @@
     </div>
 
     <!-- ค่าลงทะเบียน & งบประมานโครงการ -->
-    <div class="px-80 py-15 mt-10">
+    <div class="lg:px-80 md:px-40 sm:px-20 py-15 mt-10">
 
       <!-- ค่าลงทะเบียน -->
       <div>
