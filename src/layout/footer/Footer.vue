@@ -1,7 +1,7 @@
 <template>
   
     <section id="contact">
-        <div class="bg-[#19528f] w-full py-12 px-70 text-white">
+        <div class="bg-[#19528f] w-full lg:py-12 lg:px-25 md:px-10 md:py-6 sm:px-5 sm:py-3 text-white">
             <div class="flex justify-between pt-2 pb-10 border-b-1 border-white">
                 <div>
                     <h1 class="text-[25px] font-medium">UHosNet</h1>

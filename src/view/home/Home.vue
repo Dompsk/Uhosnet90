@@ -1,36 +1,36 @@
 <template>
   <div id="home" class="home-container relative w-full font-sans bg-gray-50">
     <!-- Banner Section -->
-    <section class="relative w-full h-[500px] md:h-[700px] lg:h-[680px] bg-cover bg-center" :style="{ backgroundImage: `url(${BannerImg})` }">
+    <section class="relative w-full bg-cover bg-center" :style="{ backgroundImage: `url(${BannerImg})` }">
       <!-- Gradient Overlay -->
       <div class="absolute inset-0 z-0" style="background: linear-gradient(90deg, rgba(0, 66, 136, 0.9) 45%, rgba(86, 117, 2, 0.3) 100%);"></div>
 
       <!-- Content -->
-      <div class="relative z-10 h-full flex flex-col justify-center px-6 md:px-16 lg:px-24 xl:px-32 pb-52">
-        <h1 class="text-white text-[3.5rem] font-bold leading-tight text-shadow-md">
+      <div class="relative z-10 flex flex-col justify-center px-6 md:px-16 lg:px-24 xl:px-32 pt-28 lg:pt-40 pb-8 lg:pb-16">
+        <h1 class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[3.5rem] font-bold leading-tight text-shadow-md">
           การประชุมเครือข่ายโรงพยาบาล<br />
           กลุ่มสถาบันแพทยศาสตร์แห่งประเทศไทย
         </h1>
-        <p class="text-white text-[20px] font-light max-w-6xl mt-[5px] mb-15 text-shadow-sm opacity-70">
+        <p class="text-white text-sm sm:text-base lg:text-[20px] font-light max-w-6xl mt-3 mb-8 text-shadow-sm opacity-70 leading-relaxed">
           เวทีแลกเปลี่ยนองค์ความรู้ นวัตกรรม และความร่วมมือด้านบริการสุขภาพ
           ระหว่างโรงพยาบาลมหาวิทยาลัยทั่วประเทศ
         </p>
 
-        <div class="flex flex-wrap gap-10 mt-4">
-          <a href="#register" @click.prevent="scrollToSection('register')" class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] text-[20px] px-5 py-2 w-fit rounded-full font-bold shadow-md transition-all transform hover:scale-105 active:scale-95 text-center cursor-pointer">
+        <div class="flex flex-wrap gap-4 sm:gap-6 md:gap-10">
+          <a href="#register" @click.prevent="scrollToSection('register')" class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] text-sm sm:text-base md:text-[20px] px-5 py-2 w-fit rounded-full font-bold shadow-md transition-all transform hover:scale-105 active:scale-95 text-center cursor-pointer">
             ลงทะเบียน
           </a>
-          <a href="#about" @click.prevent="scrollToSection('about')" class="bg-transparent border border-white text-white text-[20px] hover:bg-white/10 px-5 py-2 w-fit rounded-full font-medium shadow-sm transition-all text-center cursor-pointer">
+          <a href="#about" @click.prevent="scrollToSection('about')" class="bg-transparent border border-white text-white text-sm sm:text-base md:text-[20px] hover:bg-white/10 px-5 py-2 w-fit rounded-full font-medium shadow-sm transition-all text-center cursor-pointer">
             ดูรายละเอียด
           </a>
         </div>
       </div>
 
-      <!-- Info Cards - positioned at bottom of banner -->
-      <div class="absolute bottom-35 left-0 right-0 z-20 flex gap-14 px-8 lg:px-24 xl:px-32 justify-center flex-wrap items-stretch translate-y-1/2">
+      <!-- Info Cards -->
+      <div class="relative z-10 grid grid-cols-1 sm:grid-cols-3 gap-4 px-6 md:px-16 lg:px-24 xl:px-32 pb-10 pt-6 sm:pt-8">
 
         <!-- Conference Date -->
-        <div class="info-card rounded-[20px] p-6 flex-1 min-w-[260px] max-w-[330px] h-[162px] flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+        <div class="info-card rounded-[20px] p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
              style="background: linear-gradient(135deg, rgba(91, 128, 171, 0.42), rgba(194, 197, 173, 0.42)); box-shadow: 0 8px 32px rgba(40, 74, 126, 0.25);">
           <div class="bg-white backdrop-blur-sm rounded-[0.75rem] w-[50px] h-[55px] flex items-center justify-center mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-[34px] h-[34px] text-[#0052AA] mb-[3px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
@@ -45,7 +45,7 @@
         </div>
 
         <!-- Venue -->
-        <div class="info-card rounded-[20px] p-6 flex-1 min-w-[260px] max-w-[360px] h-[162px] flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+        <div class="info-card rounded-[20px] p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
              style="background: linear-gradient(135deg, rgba(91, 128, 171, 0.42), rgba(194, 197, 173, 0.42)); box-shadow: 0 8px 32px rgba(40, 74, 126, 0.25);">
           <div class="bg-white backdrop-blur-sm rounded-[0.75rem] w-[50px] h-[60px] flex items-center justify-center mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" height="38px" viewBox="0 -960 960 960" width="34px" fill="#004894">
@@ -58,7 +58,7 @@
         </div>
 
         <!-- Theme -->
-        <div class="info-card rounded-[20px] p-6 flex-1 min-w-[260px] max-w-[330px] h-[162px] flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+        <div class="info-card rounded-[20px] p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
              style="background: linear-gradient(135deg, rgba(91, 128, 171, 0.42), rgba(194, 197, 173, 0.42)); box-shadow: 0 8px 32px rgba(40, 74, 126, 0.25);">
           <div class="bg-white backdrop-blur-sm rounded-[0.75rem] w-[50px] h-[50px] flex items-center justify-center mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-[34px] h-[34px] text-[#004894]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
@@ -74,9 +74,6 @@
 
       </div>
     </section>
-
-    <!-- Spacer for the overlapping cards -->
-    <div class="h-24"></div>
   </div>
 </template>
 

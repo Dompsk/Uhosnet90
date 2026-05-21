@@ -7,9 +7,9 @@
       <div class="mb-1 md:mb-0 text-center md:text-left">
         เจ้าภาพโดย โรงพยาบาลสงขลานครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์
       </div>
-      <div class="flex items-center gap-2 md:gap-4">
+      <div class="flex lg:flex-row md:flex-col items-center lg:gap-4 md:gap-0 md:py-3">
         <span>0-7445-5000</span>
-        <span class="hidden md:inline text-gray-400">|</span>
+        <span class="md:hidden lg:inline text-gray-400">|</span>
         <span>support.hospital@medicine.psu.ac.th</span>
       </div>
     </div>

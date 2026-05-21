@@ -33,7 +33,7 @@ const route = useRoute();
   <div v-if="route.path === '/aboutinfo'">
     <AboutInfo />
   </div>
-  
+
   <!-- footer ในทุกหน้า -->
   <Footer />
 </template>
