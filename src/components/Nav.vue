@@ -203,6 +203,31 @@ const route = useRoute();
 const isMenuOpen = ref(false);
 const activeSection = ref("home");
 
+// Highlight active section based on scroll position
+const sections = [
+  "home",
+  "about",
+  "uhosnet_group",
+  "news",
+  "agenda",
+  "contact",
+];
+const onScroll = () => {
+  if (route.path !== "/") {
+    activeSection.value = "";
+    return;
+  }
+  const navHeight = document.querySelector("header")?.offsetHeight || 80;
+  for (let i = sections.length - 1; i >= 0; i--) {
+    const el = document.getElementById(sections[i]);
+    if (el && el.getBoundingClientRect().top <= navHeight + 40) {
+      activeSection.value = sections[i];
+      return;
+    }
+  }
+  activeSection.value = "home";
+};
+
 watch(() => route.path, (newPath) => {
   if (newPath !== "/") {
     activeSection.value = "";
@@ -233,31 +258,6 @@ const scrollToSection = async (id) => {
     window.scrollTo({ top, behavior: "smooth" });
     activeSection.value = id;
   }
-};
-
-// Highlight active section based on scroll position
-const sections = [
-  "home",
-  "about",
-  "uhosnet_group",
-  "news",
-  "agenda",
-  "contact",
-];
-const onScroll = () => {
-  if (route.path !== "/") {
-    activeSection.value = "";
-    return;
-  }
-  const navHeight = document.querySelector("header")?.offsetHeight || 80;
-  for (let i = sections.length - 1; i >= 0; i--) {
-    const el = document.getElementById(sections[i]);
-    if (el && el.getBoundingClientRect().top <= navHeight + 40) {
-      activeSection.value = sections[i];
-      return;
-    }
-  }
-  activeSection.value = "home";
 };
 
 onMounted(() => window.addEventListener("scroll", onScroll));

@@ -91,8 +91,7 @@
         </div>
         <router-link
           to="/aboutinfo"
-          class="group flex h-[46px] mx-auto sm:h-[50px] w-[140px] sm:w-[150px] items-center justify-center rounded-4xl border border-[#003D7E] bg-white transition-all duration-300 hover:bg-[#003D7E]"
-()        >
+          class="group flex h-[46px] mx-auto sm:h-[50px] w-[140px] sm:w-[150px] items-center justify-center rounded-4xl border border-[#003D7E] bg-white transition-all duration-300 hover:bg-[#003D7E]">
           <span
             class="text-[17px] sm:text-[20px] font-extrabold text-[#003D7E] transition-colors duration-300 group-hover:text-white"
           >
