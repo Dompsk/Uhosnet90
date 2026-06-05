@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/view/home/Home.vue";
+import FormRegistration from "@/view/form/Form_Registration.vue";
 
 const routes = [
   {
@@ -18,11 +19,6 @@ const routes = [
     component: () => import('@/view/news/News.vue')
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('@/view/contact/Contact.vue')
-  },
-  {
     path: '/uhosnet_group',
     name: 'uhosnet_group',
     component: () => import('@/view/uhosnet_group/UhosnetGroup.vue')
@@ -31,6 +27,11 @@ const routes = [
     path: '/register',
     name: 'register',
     component: () => import('@/view/regis_process/RegisProcess.vue')
+  },
+  {
+    path: '/form_register',
+    name: 'form_register',
+    component: () => import('@/view/form/Form_Registration.vue')
   },
 
   // ขึ้นหน้าใหม่
