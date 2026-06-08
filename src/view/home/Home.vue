@@ -21,30 +21,18 @@
       <div
         class="relative z-10 h-full flex flex-col justify-center px-6 md:px-16 lg:px-24 xl:px-32 pb-52"
       >
-        <h1
-          class="text-white text-[3.5rem] pr-110 font-bold leading-tight text-shadow-md"
-        >
+        <h1 class="text-white text-[3.5rem] pr-110 font-bold leading-tight text-shadow-md">
           {{ conference?.banner_title || "กำลังโหลด..." }}
         </h1>
-        <p
-          class="text-white text-[20px] font-light max-w-6xl mt-[5px] mb-15 text-shadow-sm opacity-70"
-        >
+        <p class="text-white text-[20px] font-light max-w-6xl mt-[5px] mb-15 text-shadow-sm opacity-70">
           {{ conference?.banner_subtitle }}
         </p>
 
         <div class="flex flex-wrap gap-10 mb-5">
-          <router-link
-            to="/form_register"
-            class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] text-[20px] px-5 py-2 w-fit rounded-full font-bold shadow-md transition-all transform hover:scale-105 active:scale-95 text-center cursor-pointer"
-          >
+          <router-link to="/form_register" class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] text-[20px] px-5 py-2 w-fit rounded-full font-bold shadow-md transition-all transform hover:scale-105 active:scale-95 text-center cursor-pointer">
             ลงทะเบียน
           </router-link>
-
-          <a
-            href="#about"
-            @click.prevent="scrollToSection('about')"
-            class="bg-transparent border border-white text-white text-[20px] hover:bg-white/10 px-5 py-2 w-fit rounded-full font-medium shadow-sm transition-all text-center cursor-pointer"
-          >
+          <a href="#about" @click.prevent="scrollToSection('about')" class="bg-transparent border border-white text-white text-[20px] hover:bg-white/10 px-5 py-2 w-fit rounded-full font-medium shadow-sm transition-all text-center cursor-pointer">
             ดูรายละเอียด
           </a>
         </div>
