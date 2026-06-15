@@ -278,7 +278,22 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: "Agenda",
+  data() {
+    return {
+      Agendas: []
+    };
+  },
+  async mounted() {
+    try {
+      const res = await axios.get('http://localhost:3000/agenda');
+      this.Agendas = res.data;
+    } catch (e) {
+      console.error('Error fetching test agendas:', e);
+    }
+  }
 };
 </script>

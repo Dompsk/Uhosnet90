@@ -231,7 +231,7 @@
       </router-link>
 
       <router-link
-        to="/"
+        to="/form_register"
         class="px-10 py-3.5 bg-[#fbb03b] text-white font-bold text-[18px] rounded-full hover:bg-[#e09d30] shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
       >
         คลิกเพื่อลงทะเบียนเข้าร่วมประชุม

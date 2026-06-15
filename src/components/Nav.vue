@@ -7,7 +7,9 @@
       <div class="mb-1 md:mb-0 text-center md:text-left">
         เจ้าภาพโดย โรงพยาบาลสงขลานครินทร์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์
       </div>
-      <div class="flex lg:flex-row md:flex-col items-center lg:gap-4 md:gap-0 md:py-3">
+      <div
+        class="flex lg:flex-row md:flex-col items-center lg:gap-4 md:gap-0 md:py-3"
+      >
         <span>0-7445-5000</span>
         <span class="md:hidden lg:inline text-gray-400">|</span>
         <span>support.hospital@medicine.psu.ac.th</span>
@@ -73,14 +75,47 @@
       <div
         class="hidden lg:flex items-center gap-6 xl:gap-12 text-[#1e293b] font-medium text-[18px]"
       >
-        <a @click.prevent="scrollToSection('home')" :class="['nav-link', activeSection === 'home' ? 'active-nav' : '']" href="#home">หน้าหลัก</a>
-        <a @click.prevent="scrollToSection('about')" :class="['nav-link', activeSection === 'about' ? 'active-nav' : '']" href="#about">เกี่ยวกับ</a>
-        <a @click.prevent="scrollToSection('uhosnet_group')" :class="['nav-link', activeSection === 'uhosnet_group' ? 'active-nav' : '']" href="#uhosnet_group">กลุ่มงาน</a>
-        <a @click.prevent="scrollToSection('news')" :class="['nav-link', activeSection === 'news' ? 'active-nav' : '']" href="#news">ข่าวประชาสัมพันธ์</a>
-        <a @click.prevent="scrollToSection('agenda')" :class="['nav-link', activeSection === 'agenda' ? 'active-nav' : '']" href="#agenda">กำหนดการ</a>
-        <a @click.prevent="scrollToSection('contact')" :class="['nav-link', activeSection === 'contact' ? 'active-nav' : '']" href="#contact">ติดต่อเรา</a>
+        <a
+          @click.prevent="scrollToSection('home')"
+          :class="['nav-link', activeSection === 'home' ? 'active-nav' : '']"
+          href="#home"
+          >หน้าหลัก</a
+        >
+        <a
+          @click.prevent="scrollToSection('about')"
+          :class="['nav-link', activeSection === 'about' ? 'active-nav' : '']"
+          href="#about"
+          >เกี่ยวกับ</a
+        >
+        <a
+          @click.prevent="scrollToSection('uhosnet_group')"
+          :class="[
+            'nav-link',
+            activeSection === 'uhosnet_group' ? 'active-nav' : '',
+          ]"
+          href="#uhosnet_group"
+          >กลุ่มงาน</a
+        >
+        <a
+          @click.prevent="scrollToSection('news')"
+          :class="['nav-link', activeSection === 'news' ? 'active-nav' : '']"
+          href="#news"
+          >ข่าวประชาสัมพันธ์</a
+        >
+        <a
+          @click.prevent="scrollToSection('agenda')"
+          :class="['nav-link', activeSection === 'agenda' ? 'active-nav' : '']"
+          href="#agenda"
+          >กำหนดการ</a
+        >
+        <a
+          @click.prevent="scrollToSection('contact')"
+          :class="['nav-link', activeSection === 'contact' ? 'active-nav' : '']"
+          href="#contact"
+          >ติดต่อเรา</a
+        >
         <router-link
-          to="/"
+          to="/form_register"
           class="bg-[#fbb03b] hover:bg-[#e09d30] text-[#1e293b] px-6 py-2 rounded-full font-bold shadow-sm transition-all transform hover:scale-105 active:scale-95"
         >
           ลงทะเบียน
@@ -93,15 +128,63 @@
           v-if="isMenuOpen"
           class="absolute top-full left-0 w-full bg-white border-t border-gray-100 shadow-xl lg:hidden flex flex-col p-4 z-40"
         >
-          <a @click.prevent="scrollToSection('home'); closeMenu()" href="#home" class="py-3 px-2 border-b border-gray-50 text-gray-700">หน้าหลัก</a>
-          <a @click.prevent="scrollToSection('about'); closeMenu()" href="#about" class="py-3 px-2 border-b border-gray-50 text-gray-700">เกี่ยวกับ</a>
-          <a @click.prevent="scrollToSection('news'); closeMenu()" href="#news" class="py-3 px-2 border-b border-gray-50 text-gray-700">ข่าวประชาสัมพันธ์</a>
-          <a @click.prevent="scrollToSection('agenda'); closeMenu()" href="#agenda" class="py-3 px-2 border-b border-gray-50 text-gray-700">กำหนดการ</a>
-          <a @click.prevent="scrollToSection('uhosnet_group'); closeMenu()" href="#uhosnet_group" class="py-3 px-2 border-b border-gray-50 text-gray-700">กลุ่มงาน</a>
-          <a @click.prevent="scrollToSection('contact'); closeMenu()" href="#contact" class="py-3 px-2 border-b border-gray-50 text-gray-700">ติดต่อเรา</a>
+          <a
+            @click.prevent="
+              scrollToSection('home');
+              closeMenu();
+            "
+            href="#home"
+            class="py-3 px-2 border-b border-gray-50 text-gray-700"
+            >หน้าหลัก</a
+          >
+          <a
+            @click.prevent="
+              scrollToSection('about');
+              closeMenu();
+            "
+            href="#about"
+            class="py-3 px-2 border-b border-gray-50 text-gray-700"
+            >เกี่ยวกับ</a
+          >
+          <a
+            @click.prevent="
+              scrollToSection('news');
+              closeMenu();
+            "
+            href="#news"
+            class="py-3 px-2 border-b border-gray-50 text-gray-700"
+            >ข่าวประชาสัมพันธ์</a
+          >
+          <a
+            @click.prevent="
+              scrollToSection('agenda');
+              closeMenu();
+            "
+            href="#agenda"
+            class="py-3 px-2 border-b border-gray-50 text-gray-700"
+            >กำหนดการ</a
+          >
+          <a
+            @click.prevent="
+              scrollToSection('uhosnet_group');
+              closeMenu();
+            "
+            href="#uhosnet_group"
+            class="py-3 px-2 border-b border-gray-50 text-gray-700"
+            >กลุ่มงาน</a
+          >
+          <a
+            @click.prevent="
+              scrollToSection('contact');
+              closeMenu();
+            "
+            href="#contact"
+            class="py-3 px-2 border-b border-gray-50 text-gray-700"
+            >ติดต่อเรา</a
+          >
           <router-link
             @click="closeMenu"
-            to="/register"
+            to="/form_register"
             class="mt-5 bg-[#fbb03b] text-center py-5 rounded-lg font-bold text-[#1e293b]"
             >ลงทะเบียน</router-link
           >
@@ -112,12 +195,46 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
-import { useRouter } from "vue-router";
+import { ref, onMounted, onUnmounted, watch } from "vue";
+import { useRouter, useRoute } from "vue-router";
 
 const router = useRouter();
+const route = useRoute();
 const isMenuOpen = ref(false);
-const activeSection = ref('home');
+const activeSection = ref("home");
+
+// Highlight active section based on scroll position
+const sections = [
+  "home",
+  "about",
+  "uhosnet_group",
+  "news",
+  "agenda",
+  "contact",
+];
+const onScroll = () => {
+  if (route.path !== "/") {
+    activeSection.value = "";
+    return;
+  }
+  const navHeight = document.querySelector("header")?.offsetHeight || 80;
+  for (let i = sections.length - 1; i >= 0; i--) {
+    const el = document.getElementById(sections[i]);
+    if (el && el.getBoundingClientRect().top <= navHeight + 40) {
+      activeSection.value = sections[i];
+      return;
+    }
+  }
+  activeSection.value = "home";
+};
+
+watch(() => route.path, (newPath) => {
+  if (newPath !== "/") {
+    activeSection.value = "";
+  } else {
+    setTimeout(onScroll, 100);
+  }
+}, { immediate: true });
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
@@ -129,36 +246,22 @@ const closeMenu = () => {
 
 const scrollToSection = async (id) => {
   // If not on the home page, navigate there first
-  if (router.currentRoute.value.path !== '/') {
-    await router.push('/');
+  if (router.currentRoute.value.path !== "/") {
+    await router.push("/");
     // Wait for DOM to render
-    await new Promise(resolve => setTimeout(resolve, 100));
+    await new Promise((resolve) => setTimeout(resolve, 100));
   }
   const el = document.getElementById(id);
   if (el) {
-    const navHeight = document.querySelector('header')?.offsetHeight || 80;
+    const navHeight = document.querySelector("header")?.offsetHeight || 80;
     const top = el.getBoundingClientRect().top + window.scrollY - navHeight;
-    window.scrollTo({ top, behavior: 'smooth' });
+    window.scrollTo({ top, behavior: "smooth" });
     activeSection.value = id;
   }
 };
 
-// Highlight active section based on scroll position
-const sections = ['home', 'about', 'uhosnet_group', 'news', 'agenda', 'contact'];
-const onScroll = () => {
-  const navHeight = document.querySelector('header')?.offsetHeight || 80;
-  for (let i = sections.length - 1; i >= 0; i--) {
-    const el = document.getElementById(sections[i]);
-    if (el && el.getBoundingClientRect().top <= navHeight + 40) {
-      activeSection.value = sections[i];
-      return;
-    }
-  }
-  activeSection.value = 'home';
-};
-
-onMounted(() => window.addEventListener('scroll', onScroll));
-onUnmounted(() => window.removeEventListener('scroll', onScroll));
+onMounted(() => window.addEventListener("scroll", onScroll));
+onUnmounted(() => window.removeEventListener("scroll", onScroll));
 </script>
 
 <style scoped>

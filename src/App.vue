@@ -34,8 +34,11 @@ const route = useRoute();
     <AboutInfo />
   </div>
 
-  <!-- footer ในทุกหน้า -->
-  <Footer />
+  <!-- หน้าอื่นๆ เช่น form_register ที่มีการกำหนดไว้ใน router -->
+  <router-view v-if="route.path !== '/' && route.path !== '/aboutinfo'"></router-view>
+
+  <!-- footer ยกเว้นหน้า form_register -->
+  <Footer v-if="route.path !== '/form_register'" />
 </template>
 
 <style scoped></style>
